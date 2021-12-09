@@ -42,7 +42,7 @@ This project doesn't need any dependency but it accesses the blob. Therefore, in
 
 ####  2. Download and installation
 
-DDownload the repository code with `git clone` or use download button.
+Download the repository code with `git clone` or use download button.
 
 We use [Visual Studio 2019](https://docs.microsoft.com/en-GB/visualstudio/ide/quickstart-aspnet-core?view=vs-2022) for working with this project.
 
@@ -58,23 +58,29 @@ The latest release of the project deployed in the [Dx29 application](https://dx2
 
 **CRUD Files**
 >- To upload a specific document or file of a Dx29 user. For user, case, resource and name specified.
->>- POST request: ``` api/v1/FileStorage/file/<userId>/<caseId>/<resourceId>/<name>```
+>>- POST request
+>>- URL: ```http://localhost/api/v1/FileStorage/file/<userId>/<caseId>/<resourceId>/<name>```
 >>- Body request: Stream of the document.
 >>- Result request: Ok if all is ok, or bad request if any error occurs.
 >- To download a specific document or file of a Dx29 user. For user, case, resource and name specified.
->>- GET request: ``` api/v1/FileStorage/file/<userId>/<caseId>/<resourceId>/<name>```
+>>- GET request
+>>- URL: ```http://localhost/api/v1/FileStorage/file/<userId>/<caseId>/<resourceId>/<name>```
 >>- Result request: The stream of the document.
 >- To delete a specific document or file of a Dx29 user. For user, case, resource and name specified.
->>- DELETE request: ``` api/v1/FileStorage/file/<userId>/<caseId>/<resourceId>/<name>```
+>>- DELETE request
+>>- URL: ```http://localhost/api/v1/FileStorage/file/<userId>/<caseId>/<resourceId>/<name>```
 >>- Result request: Ok if all is ok, or bad request if any error occurs.
 >- To copy a specific document or file of a Dx29 user. For user, case, resource and name specified.
->>- PATCH request: ``` api/v1/FileStorage/copy/<userId>/<caseId>/<resourceId>/<name>```
+>>- PATCH request
+>>- URL:```http://localhost/api/v1/FileStorage/copy/<userId>/<caseId>/<resourceId>/<name>```
 >>- Result request: Ok if all is ok, or bad request if any error occurs.
 >- To move a specific document or file of a Dx29 user. For user, case, resource and name specified.
->>- PATCH request: ``` api/v1/FileStorage/move/<userId>/<caseId>/<resourceId>/<name>```
+>>- PATCH request
+>>- URL: ```http://localhost/api/v1/FileStorage/move/<userId>/<caseId>/<resourceId>/<name>```
 >>- Result request: Ok if all is ok, or bad request if any error occurs.
 >- To share a specific document or file of a Dx29 user with another. For user, case, resource and name specified.
->>- PATCH request: ``` api/v1/FileStorage/share/<userId>/<caseId>/<resourceId>/<name>```
+>>- PATCH request
+>>- URL: ```http://localhost/api/v1/FileStorage/share/<userId>/<caseId>/<resourceId>/<name>```
 >>- Result request: The new URI of the file shared.
 
 <p>&nbsp;</p>
