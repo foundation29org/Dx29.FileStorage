@@ -5,7 +5,7 @@
 Dx29 File Storage
 ==============================================================================================================================================
 
-[![Build Status](https://f29.visualstudio.com/Dx29%20v2/_apis/build/status/DEV-MICROSERVICES/Dx29.Localization?branchName=develop)](https://f29.visualstudio.com/Dx29%20v2/_build/latest?definitionId=101&branchName=develop)
+[![Build Status](https://f29.visualstudio.com/Dx29%20v2/_apis/build/status/DEV-MICROSERVICES/Dx29.FileStorage?branchName=develop)](https://f29.visualstudio.com/Dx29%20v2/_build/latest?definitionId=71&branchName=develop)
 
 ### **Overview**
 
